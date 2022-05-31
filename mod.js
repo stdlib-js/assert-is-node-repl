@@ -1,4 +1,4 @@
 // Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
 /// <reference types="./mod.d.ts" />
-function e(e){if(e.__esModule)return e;var r=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(t){var i=Object.getOwnPropertyDescriptor(e,t);Object.defineProperty(r,t,i.get?i:{enumerable:!0,get:function(){return e[t]}})})),r}require("process");var r=require("@stdlib/utils-global");require("@stdlib/utils-native-class"),require("@stdlib/assert-is-plain-object"),require("@stdlib/assert-is-string").isPrimitive,require("./to_string.js"),require("./global_scope.js"),r();var t=e(Object.freeze({__proto__:null}))(),i={},s=function(){return(new Error).stack},n=/^repl$|^<repl>$/,u=/at REPLServer/;var o=function(){var e,r;if(!t)return!1;for(r=i();r;){if(n.test(r.id))return!0;r=r.parent}return!!(e=s())&&u.test(e)};export{o as default};
+var n=function(n){return function(){return n}}(!1);export{n as default};
 //# sourceMappingURL=mod.js.map
