@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@deno/mod.js';
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.1.1-deno/mod.js';
 ```
 
 #### isNodeREPL()
@@ -65,7 +65,7 @@ var bool = isNodeREPL();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@deno/mod.js';
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.1.1-deno/mod.js';
 
 console.log( isNodeREPL() );
 // => <boolean>
