@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@esm/index.mjs';
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.2.2-esm/index.mjs';
 ```
 
 #### isNodeREPL()
@@ -70,7 +70,7 @@ var bool = isNodeREPL();
 <body>
 <script type="module">
 
-import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@esm/index.mjs';
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.2.2-esm/index.mjs';
 
 console.log( isNodeREPL() );
 // => <boolean>
