@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-node-repl/tags). For example,
+
+```javascript
 import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.2.2-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var bool = isNodeREPL();
 <body>
 <script type="module">
 
-import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@v0.2.2-esm/index.mjs';
+import isNodeREPL from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-repl@esm/index.mjs';
 
 console.log( isNodeREPL() );
 // => <boolean>
