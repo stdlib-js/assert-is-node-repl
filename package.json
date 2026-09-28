@@ -16,6 +16,7 @@
   "main": "./lib",
   "browser": "./lib/browser.js",
   "directories": {
+    "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
@@ -25,7 +26,8 @@
   "scripts": {
     "test": "make test",
     "test-cov": "make test-cov",
-    "examples": "make examples"
+    "examples": "make examples",
+    "benchmark": "make benchmark"
   },
   "homepage": "https://stdlib.io",
   "repository": {
@@ -40,10 +42,12 @@
     "@stdlib/utils-constant-function": "^0.2.3"
   },
   "devDependencies": {
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
